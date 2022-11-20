@@ -1,5 +1,0 @@
-{
-  "browser" : "firefox",
-  "no-browser" : true,
-  "root": "html/index.html"
-}
