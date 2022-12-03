@@ -25,9 +25,35 @@ body{
   z-index: 100;
 }
 
+header nav .boxit{
+  align-items: center;
+  top: 50%;
+  left: 50%;
+}
+input.src{
+  padding: 9px 10px 9px 32px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 15px;
+  color: #444;
+  border: 2px solid #0000;
+  background: #fff url("/imagenes/search.png") no-repeat left ;
+  background-size: 30px;
+  background-color: rgba(0, 0, 0, .2);
+  width: 60px;
+  transition: all .5s;
+}
+
+input.src:hover{
+  width: 180px;
+  box-shadow: 0 0 5px #C81D11;
+}
+
 .navbar{
   display: flex;
-  margin-right: 10px;
+  margin-right: 20px;
+
 }
 
 .logo{
@@ -64,6 +90,7 @@ body{
   font-family: 'Rubik Glitch', cursive;
   text-transform: uppercase;
   font-size: 20px;
+  transition: all .4s;
 }
 
 .navbar a:hover{
@@ -114,9 +141,22 @@ main h1{
 }
 
 .box:hover h2{
-  display:block;
+  display: block;
+  animation-duration: .9s;
+  animation-name: bordercolor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 main{
   padding-top: 63px;
+}
+
+@keyframes bordercolor {
+  from{
+    box-shadow: 0 0 0px #C81D11
+  }
+  to{
+    box-shadow: 0 0 14px #C81D11;
+  }
 }
