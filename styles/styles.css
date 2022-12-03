@@ -9,15 +9,18 @@
 body{
   text-align: center;
   font-family: sans-serif;
+  background-color: rgb(35, 31, 31);
 }
 
-.head{
+
+
+#head{
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 63px;
   background: #171717;
-  position: fixed;
+  position:fixed;
   width: 100%;
   z-index: 100;
 }
@@ -29,6 +32,21 @@ body{
 
 .logo{
   margin-left: 30px;
+  
+}
+#head .box_jeje{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+#head .contain_jeje{
+  object-fit: cover;
+}
+
+#head img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
 }
 
 .logo a{
@@ -52,3 +70,53 @@ body{
   color: rgb(255, 0, 0);
 }
 
+main h1{
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+}
+
+#section .box{
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  position: relative;
+}
+#section .contain{
+  object-fit: cover;
+}
+#section img{
+  width: 100%;
+  height:100%;
+  border-radius: 30px;
+}
+.section{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.box a h2{
+  position: absolute;
+  display:none;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, .7);
+  text-align: center;
+  color: white;
+  padding: 110px;
+  font-size: 20px;
+}
+
+.box:hover h2{
+  display:block;
+}
+
+main{
+  padding-top: 63px;
+}
