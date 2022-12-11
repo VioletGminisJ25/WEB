@@ -67,19 +67,15 @@ input.src:hover{
 }
 #head .contain_jeje{
   object-fit: cover;
+  width: 60%;
+  height: 60%;
+  margin-top: 40px;
 }
 
 #head img{
   width: 100%;
   height: 100%;
   border-radius: 30px;
-}
-
-.logo a{
-  text-decoration: none;
-  color: #ffff;
-  text-transform: uppercase;
-  font-family: 'Rubik Glitch', cursive;
 }
 
 .navbar a{
@@ -117,7 +113,7 @@ main h1{
   height:100%;
   border-radius: 30px;
 }
-.section{
+#articles{
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 300px 300px 300px 300px;
@@ -159,4 +155,7 @@ main{
   to{
     box-shadow: 0 0 14px #C81D11;
   }
+}
+.hide{
+  display: none;
 }
