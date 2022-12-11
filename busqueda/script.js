@@ -1,6 +1,6 @@
 let articles = {
     data: [
-            {
+        {
             gameName: "Ghost of Tsushima",
             image: "/imagenes/gost_tsuchima.jpeg",
             reference: "#",
