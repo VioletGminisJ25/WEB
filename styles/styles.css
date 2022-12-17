@@ -159,3 +159,15 @@ main{
 .hide{
   display: none;
 }
+/*---- Plataformas ----*/
+
+.platforms{
+  background-color: rgb(40, 35, 35);
+  align-items: center;
+}
+.box-platforms{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:20px;
+}
