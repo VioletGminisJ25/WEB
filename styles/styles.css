@@ -167,12 +167,18 @@ main{
 }
 .box-platforms{
   display: flex;
-  margin: 20px;
+  margin: 30px;
 }
 .cosas{
   width: 35%;
 }
 .i-platform{
   margin-bottom: 60px;
-  border-color: red;
+  box-shadow: 0 0 2px #C81D11;
+}
+.i-platform p{
+  margin-top:10px;
+  margin-bottom: 20px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
