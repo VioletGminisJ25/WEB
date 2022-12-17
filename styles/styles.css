@@ -175,10 +175,10 @@ main{
 .i-platform{
   margin-bottom: 60px;
   box-shadow: 0 0 2px #C81D11;
+  height: 500px;
 }
 .i-platform p{
   margin-top:10px;
   margin-bottom: 20px;
-  margin-right: 90px;
-  margin-left: 90px;
+  text-align:;
 }
