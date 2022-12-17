@@ -167,7 +167,7 @@ main{
 }
 .box-platforms{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin:20px;
+  margin: 20px;
 }
+.box-platforms1{
+  width: 50%;}
