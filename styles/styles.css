@@ -169,5 +169,10 @@ main{
   display: flex;
   margin: 20px;
 }
-.box-platforms1{
-  width: 50%;}
+.cosas{
+  width: 35%;
+}
+.i-platform{
+  margin-bottom: 60px;
+  border-color: red;
+}
