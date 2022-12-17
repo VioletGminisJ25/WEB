@@ -51,7 +51,7 @@ input.src:hover{
 }
 
 .navbar{
-  display: flex;
+  display:flex;
   margin-right: 20px;
 
 }
