@@ -174,11 +174,58 @@ main{
 }
 .i-platform{
   margin-bottom: 60px;
-  box-shadow: 0 0 2px #C81D11;
-  height: 500px;
+  box-shadow: 0 0 5px black;
+  height: 400px;
+  border-radius: 15px;
+}
+/*Text, links and title platforms style */
+.i-platform a{
+  text-decoration: none;
+  color:white;
+  background-color: red;
+  border-radius: 20px;
+  transition: all .5s;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#PS4 a:hover{
+  color:blue;
+  background-color: white;
+  transition: all .5s;
+}
+#NINTENDO a:hover{
+  color:red;
+  background-color: white ;
+  transition:all .5s;
+}
+.i-platform h2{
+  color: white;
+  font-size: 25px;
+  padding: 10px;
 }
 .i-platform p{
-  margin-top:10px;
-  margin-bottom: 20px;
-  text-align:;
+  padding-top: 200px;
+  color: white;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+#PS4{
+  background-image:url("/imagenes/Playstation-4-Logo.jpg");
+  background-size: 500px;
+  background-position: center;
+  background-position-y: 25px;
+}
+#NINTENDO{
+  background-image:url("/imagenes/nintendo_switch_logo.jpg");
+  background-position: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position-y: 20px;
+}
+#NINTENDO p, #NINTENDO h2{
+  color: black;
 }
