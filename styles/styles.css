@@ -229,3 +229,10 @@ main{
 #NINTENDO p, #NINTENDO h2{
   color: black;
 }
+#WINDOWS{
+  background-image: url("/imagenes/Windows_logo.png");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-color:  #042a6c;
+}
